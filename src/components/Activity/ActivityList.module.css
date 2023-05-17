@@ -1,0 +1,42 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 425px;
+}
+
+.btn {
+  display: block;
+  border: none;
+  width: 150px;
+  height: 40px;
+  background: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: black;
+  align-items: center;
+  border-radius: 10px;
+  outline: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* box-shadow: 5px 10px 28px #888888; */
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #222222;
+  background-color: rgb(198, 198, 198);
+}
+
+.item {
+  margin: 1rem 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: #ccc;
+  text-decoration: none;
+}

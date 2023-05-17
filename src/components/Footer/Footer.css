@@ -1,0 +1,48 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(52, 104, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 350px;
+    font-size: 1.5rem;
+}
+
+.icon-row>* {
+    color: #b7b6b6;
+    cursor: pointer;
+}
+
+.icon-row>*:hover {
+    color: #333;
+}
+
+.icon-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.icon-wrapper svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+}

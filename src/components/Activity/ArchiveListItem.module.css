@@ -1,0 +1,72 @@
+.item {
+    margin: 1rem 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: #ccc;
+    text-decoration: none;
+}
+
+.item:hover {
+    transform: scale(1.04);
+}
+
+.item:last-of-type {
+    border-bottom: none;
+}
+
+.item figure {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+}
+
+.item blockquote {
+    margin: 0;
+    text-align: left;
+    font-size: 1rem;
+    color: #212929;
+}
+
+.item p {
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+
+.item figcaption {
+    font-style: italic;
+    color: #566d6d;
+}
+
+.fig {
+    font-style: italic;
+    color: #566d6d;
+    text-align: center;
+}
+
+.badge {
+    background-color: rgb(187, 13, 13);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: super;
+    position: relative;
+    top: -1px;
+}
+
+.time {
+    background-color: rgb(191, 189, 189);
+    color: #566d6d;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+  
+ 
+  
