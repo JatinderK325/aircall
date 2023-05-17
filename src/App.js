@@ -9,6 +9,7 @@ import ActivityDetail from './pages/ActivityDetail';
 import Footer from './components/Footer/Footer';
 
 function App() {
+  // array for calls' list
   const ACTIVITIES = [
     { id: 'a1', author: 'tried to call on Xavier', text: '+14581781900', day: 'Aug, 12 2020', archived: false },
     { id: 'a2', author: 'tried to call on Xavier', text: '+14581182223', day: 'Aug, 2 2020', archived: false },
@@ -20,6 +21,7 @@ function App() {
   const [archived, setArchived] = useState([]);
   //const[unArchive, setUnArchive] = useState(archived);
 
+  // function to archive calls
   const onArchiveHandler = () => {
     const updatedActivities = activities.map((activity) => ({
       ...activity,
@@ -32,6 +34,7 @@ function App() {
 
   const archivedActivities = archived.filter((activity) => activity.archived);
 
+  // function to unarchive calls
   const onUnArchiveHandler = () => {
     const updatedActivities = archivedActivities.map((activity) => ({
       ...activity,

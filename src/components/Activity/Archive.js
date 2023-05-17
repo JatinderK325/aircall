@@ -4,6 +4,7 @@ import ArchiveListItem from "./ArchiveListItem";
 import { BsFillArchiveFill } from "react-icons/bs";
 
 const Archive = ({ archivedActivities, onUnArchiveHandler }) => {
+    // calling function to unarchive calls on button click
     const unArchiveHandler = () => {
         onUnArchiveHandler();
     }

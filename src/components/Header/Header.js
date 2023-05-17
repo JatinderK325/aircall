@@ -24,7 +24,7 @@ const Header = () => {
             </header>
             <nav className={classes.navbar}>
                 <NavLink to='/activity' activeClassName={classes.active}>Calls</NavLink>
-                <NavLink to='/archieved' activeClassName={classes.active}>Archieved Calls</NavLink>
+                <NavLink to='/archieved' activeClassName={classes.active}>Archived Calls</NavLink>
             </nav>
         </div>
     );

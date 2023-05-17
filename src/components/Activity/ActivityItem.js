@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import classes from './ActivityItem.module.css';
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
 
+// component for single call item of a calls' list
 const ActivityItem = (props) => {
   return (
     <div>

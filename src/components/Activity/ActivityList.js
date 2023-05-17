@@ -4,7 +4,9 @@ import classes from './ActivityList.module.css';
 import ActivityItem from './ActivityItem';
 import { BsFillArchiveFill } from "react-icons/bs";
 
+// component for list of calls
 const ActivityList = ({ activities, onArchiveHandler }) => {
+    // calling function to archive calls on button click
     const archiveActivitiesHandler = () => {
         onArchiveHandler();
     }
